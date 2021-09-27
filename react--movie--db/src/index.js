@@ -6,5 +6,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+
+  // this connects to public/index.html div id="root"
   document.getElementById("root")
 );
