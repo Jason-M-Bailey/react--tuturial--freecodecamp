@@ -20,13 +20,14 @@ const Movie = () => {
 
   const { state: movie, loading, error } = useMovieFetch(movieId);
 
-  if (loading) return <Spinner />;
-  if (error) return <div>Something went wrong ...</div>;
+  // if (loading) return <Spinner />;
+  // if (error) return <div>Something went wrong ...</div>;
 
   // console.log(movie);
 
   return (
     <>
+    {/* //todo this is not pulling in original title */}
       <BreadCrumb movieTitle={movie.original_title} />
     </>
   );
