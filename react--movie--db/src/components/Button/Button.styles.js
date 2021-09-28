@@ -11,7 +11,7 @@ export const Wrapper = styled.button`
   border: 0;
   font-size: var(--fontBig);
   margin: 20px auto;
-  transition: all 0.3s;
+  transition: all 0.8s;
   outline: none;
   cursor: pointer;
 
