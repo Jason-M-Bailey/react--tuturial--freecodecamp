@@ -38,12 +38,13 @@ export const useHomeFetch = () => {
     setLoading(false);
   };
 
-  // initial render
+  // initial render and search
   useEffect(() => {
-    fetchMovies(1);
-  }, []);
-  // todo: why the empty array?
-  // only runs once
+    setState(initialState)
+    fetchMovies(1, searchTerm);
+  }, [searchTerm]);
+  // [searchTerm] = trigger each time it changes
+  // if left empty, only triggers once on mount
 
-  return { state, loading, error, setSearchTerm };
+  return { state, loading, error, searchTerm, setSearchTerm };
 };
