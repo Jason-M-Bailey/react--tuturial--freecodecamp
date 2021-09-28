@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background: linear-gradient(
@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
   background-position: center;
   height: 600px;
   position: relative;
-  animation: animateHeroImage 1s;
+  animation: animateHeroImage 3s;
 
   @keyframes animateHeroImage {
     from {
