@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   display: flex;
@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
   background: var(--darkGrey);
   padding: 0 20px;
 `;
-
 
 export const Content = styled.div`
   position: relative;
